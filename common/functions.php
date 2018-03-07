@@ -1,15 +1,15 @@
 <?php
 // TODO
-//define('ARTICLE_FILE', '/Users/takanoriizutani/Documents/acd_study/blog/common/article.json');
-//define('USER_FILE', '/Users/takanoriizutani/Documents/acd_study/blog/common/user.csv');
-define('ARTICLE_FILE', '/var/www/html/blog/common/article.json');
-define('USER_FILE', '/var/www/html/blog/common/user.csv');
+define('ARTICLE_FILE', '/Users/takanoriizutani/Documents/acd_study/blog/common/article.json');
+define('USER_FILE', '/Users/takanoriizutani/Documents/acd_study/blog/common/user.csv');
+//define('ARTICLE_FILE', '/var/www/html/blog/common/article.json');
+//define('USER_FILE', '/var/www/html/blog/common/user.csv');
 define('BLOG_TITLE', 'Your Blog Title');
 define('ADMIN_BLOG_TITLE', 'Admin Your Blog Title');
 
 define('DEFAULT_ENCODE', 'UTF-8');
-//define('DOMAIN', 'http://localhost:8000/');
-define('DOMAIN', 'http://159.65.141.105/blog/');
+define('DOMAIN', 'http://localhost:8000/');
+//define('DOMAIN', 'http://159.65.141.105/blog/');
 
 /**
  * リダイレクトする。
