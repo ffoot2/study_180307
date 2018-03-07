@@ -14,7 +14,7 @@ if (!is_numeric($id)) {
   send_error_page();
 }
 
-delete_article($id - 1);
+delete_article($id);
 
 header("location:index.php");
 

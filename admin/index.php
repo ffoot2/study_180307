@@ -42,6 +42,6 @@ $articles = get_articles();
   <?php } ?>
   </table>
   <hr>
-  <a href="/admin/entry.php">NEW</a>
+  <a href="entry.php">NEW</a>
 </body>
 </html>

@@ -3,12 +3,13 @@
 //define('ARTICLE_FILE', '/Users/takanoriizutani/Documents/acd_study/blog/common/article.json');
 //define('USER_FILE', '/Users/takanoriizutani/Documents/acd_study/blog/common/user.csv');
 define('ARTICLE_FILE', '/var/www/html/blog/common/article.json');
-define('USER_FILE', '/var/www/htmlblog/common/user.csv');
+define('USER_FILE', '/var/www/html/blog/common/user.csv');
 define('BLOG_TITLE', 'Your Blog Title');
 define('ADMIN_BLOG_TITLE', 'Admin Your Blog Title');
 
 define('DEFAULT_ENCODE', 'UTF-8');
-define('DOMAIN', 'http://localhost:8000/');
+//define('DOMAIN', 'http://localhost:8000/');
+define('DOMAIN', 'http://159.65.141.105/blog/');
 
 /**
  * リダイレクトする。
@@ -101,7 +102,6 @@ function delete_article($id){
         $save_articles[] = $article;
       }
     }
-    var_dump($save_articles);die();
     $articles_json = json_encode($save_articles);
     file_put_contents(ARTICLE_FILE, $articles_json, LOCK_EX);
   }
